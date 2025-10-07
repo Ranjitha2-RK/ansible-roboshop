@@ -6,7 +6,8 @@
     sg_id: sg-0f6af9cfdf4df9b38 # replace with  your id
     zone_id: Z04329491JVZ2CIKZJO2V # replace with your id
     domain_name: "daws86s.sbs"
-    # We can pass instances through command line using -e
+    # We can pass instances through command line using -e => ansible-playbook -i inventory.ini <filename(01-ec2-r42.yaml)> -e "instances=['catalogue','user','cart']"
+
     # instances: 
     # - mongodb
     # - redis
