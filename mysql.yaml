@@ -4,7 +4,7 @@
   tasks:
   - name: install mysql server
     ansible.builtin.package:
-      name: msyql
+      name: mysql
       state: present
 
   - name: start and enable mysql
